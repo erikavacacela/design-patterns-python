@@ -1,4 +1,27 @@
-# design-patterns-python
+# Welcome to design-patterns-python
+
+Examples using design patterns with python.
+
+
+### Prerequisites
+
+* python3 [latest](https://www.python.org/downloads/)
+* virtualenv [latest version](https://virtualenv.pypa.io/en/latest/)
+* ChromeDriver [Chrome for Selenium](https://chromedriver.chromium.org/)
+
+
+### Manage environment
+
+* Create a environment
+```
+pip3 install virtualenv
+python3 -m virtualenv env -p python3
+```
+
+* Select environment
+```
+source env/bin/activate
+```
 
 
 ### The SOLID concepts

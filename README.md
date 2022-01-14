@@ -31,3 +31,17 @@ The Open–closed principle: "Software entities ... should be open for extension
 The Liskov substitution principle: "Functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it."[8] See also design by contract.[8]
 The Interface segregation principle: "Many client-specific interfaces are better than one general-purpose interface."[9][4]
 The Dependency inversion principle: "Depend upon abstractions, [not] concretions."[10][4]
+
+
+### Factory
+#### Motivation
+* Object creation logic becomes too convoluted/complejo
+* Initializer is not descriptive
+
+* Use this when the creation be so complicated.
+* Can create hierarchy
+
+#### Teory
+ _A component responsible solely for the wholesale (not piecewise) creation of objects_=
+
+ * A factory method is a static method that creates objects
